@@ -1,0 +1,40 @@
+Program was run for below scenarios for evaluation:
+
+GWSAT
+-----------------------------------------------------------------------------------
+File: uf20-01.cnf
+command: python Palagiri_R00184198_GWSAT.py uf20-01.cnf 100 10 1000 0.4
+
+File: uf20-02.cnf
+command: python Palagiri_R00184198_GWSAT.py uf20-02.cnf 100 10 1000 0.4
+
+File: uf50-01.cnf
+command: python Palagiri_R00184198_GWSAT.py uf50-01.cnf 100 10 1000 0.4
+
+Probability was varied from 0.1 to 0.9
+
+For RTD:
+ python Palagiri_R00184198_GWSAT.py uf20-01.cnf 1000 10 1000 0.4
+ python Palagiri_R00184198_GWSAT.py uf20-02.cnf 1000 10 1000 0.4
+ python Palagiri_R00184198_GWSAT.py uf50-01.cnf 100 10 1000 0.4
+
+
+WALKSAT
+-----------------------------------------------------------------------------------
+File: uf20-01.cnf
+command: python Palagiri_R00184198_WalkSAT.py uf20-01.cnf 30 1000 10 0.4 5
+
+File: uf20-02.cnf
+command: python Palagiri_R00184198_WalkSAT.py uf20-02.cnf 30 1000 10 0.4 5
+
+File: uf50-01.cnf
+command: python Palagiri_R00184198_WalkSAT.py uf50-01.cnf 30 1000 10 0.4 5
+
+Probability was varied from 0.1 to 0.9 and tabu list in (2,3,5,10) 
+
+For RTD:
+ python Palagiri_R00184198_WalkSAT.py uf20-01.cnf 1000 1000 10 0.4 5
+ python Palagiri_R00184198_WalkSAT.py uf20-02.cnf 1000 1000 10 0.4 5
+ python Palagiri_R00184198_WalkSAT.py uf50-01.cnf 100 1000 10 0.4 5
+
+
